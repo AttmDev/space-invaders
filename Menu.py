@@ -34,7 +34,7 @@ class Menu():
                     if item.name == 'PLAY':
                         return 1
                     elif item.name == 'DIFICULDADE':
-                        time.sleep(0.1)
+                        time.sleep(0.2)
                         return 2
                     elif item.name == 'EXIT':
                         exit()
