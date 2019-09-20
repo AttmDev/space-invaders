@@ -114,8 +114,8 @@ class Play():
 class Player(gi.GameImage):
     def __init__(self, keyb):
         gi.GameImage.__init__(self, "assets/game/spaceship.png")
-        self.y = 720 - self.height
-        self.x = 1280 / 2 - self.width
+        self.y = 480 - self.height
+        self.x = 680 / 2 - self.width
         self.direction = -1
         self.score = 0
         self.shoot_delay = 0.5

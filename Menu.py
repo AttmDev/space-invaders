@@ -5,7 +5,7 @@ class Button():
     def __init__(self, image, name, pos):
         self.image_normal = gi.GameImage('assets/menu/1'+image)
         self.image_select = gi.GameImage('assets/menu/2'+image)
-        self.image_normal.x = self.image_select.x = 1280/2 - self.image_normal.width/2
+        self.image_normal.x = self.image_select.x = 680/2 - self.image_normal.width/2
         self.image_normal.y = self.image_select.y = pos
         self.name = name
 
